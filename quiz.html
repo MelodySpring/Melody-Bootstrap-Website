@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <header>
-
+    <!-- <header>
+        <!-- 
         <div class="logo">
             <img id="logoImage" src="assets/images/Logo.png" alt="">
             MELODY SPRING MACRO
@@ -30,149 +30,214 @@
 
         </nav>
     </header>
-
-
+-->
     <main id="quiz">
         <h1>Photography Quiz</h1>
-        <section>
-            <div>
+        <section class="wrapper cards">
 
-                <h3>1. What does the aperture control in a camera?</h3>
-                <ol>
-                    <li>Colour balance</li>
-                    <li>Depth of field</li>
-                    <li>Image sharpness</li>
-                    <li>File size</li>
-                </ol>
-                <p>
-                    Hint: Think about background blur.
-                    Answer: Depth of field
-                </p>
-            </div>
-            <div>
-                <h3>2. What does a fast shutter speed help you capture?</h3>
-                <ol>
-                    <li>More light</li>
-                    <li>Motion blur</li>
-                    <li>Freezing action</li>
-                    <li>Softer colours</li>
-                    </ul>
-                    <p>
-                        Hint: Used a lot in sports photography.
-                        Answer: Freezing action
-                    </p>
-
+            <!-- CARD 1 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="Think about background blur.">
+                        <h2>1. What does the aperture control in a camera?</h2>
+                        <ol>
+                            <li>Colour balance</li>
+                            <li>Depth of field</li>
+                            <li>Image sharpness</li>
+                            <li>File size</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>B) Depth of field</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3>3. What does ISO adjust?</h3>
-                <ol>
-                    <li>Lens zoom</li>
-                    <li>Sensor sensitivity</li>
-                    <li>White balancen</li>
-                    <li>Focus distance</li>
-                </ol>
-                <p>
-                    Hint: Higher values help in low light.
-                    Answer: B) Sensor sensitivity
-                </p>
-
+            <!-- CARD 2 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="Used a lot in sports photography.">
+                        <h2>2. What does a fast shutter speed help you capture?</h2>
+                        <ol>
+                            <li>More light</li>
+                            <li>Motion blur</li>
+                            <li>Freezing action</li>
+                            <li>Softer colours</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>C) Freezing action</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3>4. What does the term “bokeh” refer to in photography? </h3>
-                <ol>
-                    <li>The colour accuracy of an image</li>
-                    <li>The sharpness of the subject</li>
-                    <li>The quality of the out‑of‑focus areas</li>
-                    <li>The amount of digital noise in a photo</li>
-                </ol>
-                <p>
-                    Hint: Think about what happens behind your subject when using a wide aperture.
-                    Answer:The quality of the out‑of‑focus areas
-                </p>
-
+            <!-- CARD 3 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="Higher values help in low light.">
+                        <h2>3. What does ISO adjust?</h2>
+                        <ol>
+                            <li>Lens zoom</li>
+                            <li>Sensor sensitivity</li>
+                            <li>White balance</li>
+                            <li>Focus distance</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>B) Sensor sensitivity</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3>5. Which lens type is best for wide landscapes? </h3>
-                <ol>
-                    <li>Telephoto lens</li>
-                    <li>Macro lens</li>
-                    <li>Wide‑angle lens</li>
-                    <li>Tilt‑shift lens</li>
-                </ol>
-                <p>
-                    Hint: It captures more of the scene.
-                    Answer: Wide‑angle lens
-                </p>
-
+            <!-- CARD 4 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="Think about the background with a wide aperture.">
+                        <h2>4. What does the term “bokeh” refer to?</h2>
+                        <ol>
+                            <li>The colour accuracy of an image</li>
+                            <li>The sharpness of the subject</li>
+                            <li>The quality of the out‑of‑focus areas</li>
+                            <li>The amount of digital noise</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>The quality of the out‑of‑focus areas</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3>6. What does white balance correct? </h3>
-                <ol>
-                    <li>Image sharpness</li>
-                    <li>Colour temperature</li>
-                    <li>Lens distortion</li>
-                    <li>Exposure time</li>
-                </ol>
-                <p>
-                    Hint: Think “too blue” or “too orange.”
-                    Answer: Colour temperature
-                </p>
-
+            <!-- CARD 5 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="It captures more of the scene.">
+                        <h2>5. Which lens type is best for wide landscapes?</h2>
+                        <ol>
+                            <li>Telephoto lens</li>
+                            <li>Macro lens</li>
+                            <li>Wide‑angle lens</li>
+                            <li>Tilt‑shift lens</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>Wide‑angle lens</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3>7. What mode lets you choose the aperture while the camera chooses the shutter speed? </h3>
-                <ol>
-                    <li>Manual Mode</li>
-                    <li>Shutter Priority</li>
-                    <li>Aperture Priority</li>
-                    <li>Auto Mode</li>
-                </ol>
-                <p>
-                    Hint: Great for portraits.
-                    Answer: Aperture Priority
-                </p>
-
+            <!-- CARD 6 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="Think ‘too blue’ or ‘too orange’.">
+                        <h2>6. What does white balance correct?</h2>
+                        <ol>
+                            <li>Image sharpness</li>
+                            <li>Colour temperature</li>
+                            <li>Lens distortion</li>
+                            <li>Exposure time</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>Colour temperature</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3>8. What is the rule of thirds used for?</h3>
-                <ol>
-                    <li>Adjusting brightness</li>
-                    <li>Improving composition</li>
-                    <li>Setting ISO</li>
-                    <li>Choosing lens size</li>
-                </ol>
-                <p>
-                    Hint: Helps place your subject.
-                    Answer: Improving composition
-                </p>
-
+            <!-- CARD 7 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="Great for portraits.">
+                        <h2>7. What mode lets you choose the aperture while the camera chooses the shutter speed?</h2>
+                        <ol>
+                            <li>Manual Mode</li>
+                            <li>Shutter Priority</li>
+                            <li>Aperture Priority</li>
+                            <li>Auto Mode</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>Aperture Priority</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3>9. What does a tripod help prevent?</h3>
-                <ol>
-                    <li>Overexposure</li>
-                    <li>Camera shake</li>
-                    <li> Colour shifts</li>
-                    <li>Lens flare</li>
-                </ol>
-                <p>
-                    Hint: Useful in low light.
-                    Answer: Camera shake
-                </p>
+            <!-- CARD 8 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="Helps place your subject.">
+                        <h2>8. What is the rule of thirds used for?</h2>
+                        <ol>
+                            <li>Adjusting brightness</li>
+                            <li>Improving composition</li>
+                            <li>Setting ISO</li>
+                            <li>Choosing lens size</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>Improving composition</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!-- CARD 9 -->
+            <div class="container">
+                <div class="card">
+                    <div class="front" data-hint="Useful in low light.">
+                        <h2>9. What does a tripod help prevent?</h2>
+                        <ol>
+                            <li>Overexposure</li>
+                            <li>Camera shake</li>
+                            <li>Colour shifts</li>
+                            <li>Lens flare</li>
+                        </ol>
+                    </div>
+                    <div class="back">
+                        <div class="content">
+                            <h3 class="cardTitle">Answer</h3>
+                            <p>Camera shake</p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
+    </main>
 
 
-        </section>
+
+
+
+
+
+
+    </section>
+
+
+
     </main>
     <footer>
         <img src="assets/images/Logo.png" alt="My logo" />
@@ -184,7 +249,17 @@
             MELODY SPRING MACRO
         </span>
     </footer>
+    <!-- Your flip cards here -->
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.card').click(function () {
+                $(this).toggleClass('flipped');
+            });
+        });
+    </script>
 
 </body>
 
