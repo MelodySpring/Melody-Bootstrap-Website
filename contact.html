@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/fav.jpg">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>CONTACT US</title>
 </head>
 
@@ -71,34 +72,59 @@
 
             </div>
 
-            <form class="contactForm">
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Name">
+            <section>
+                <div class="booking-form-box">
 
-                <label for="number">Phone Number:</label>
-                <input type="tel" id="number" placeholder="Phone Number">
+                    <div class="radio-btn">
+                        <input type="radio" class="btn" name="check" checked="checked"><span>Novice</span>
+                        <input type="radio" class="btn" name="check"><span>Intermediate</span>
+                        <input type="radio" class="btn" name="check"><span>Experienced</span>
+                    </div>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Email Address">
+                    <div class="booking-form">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control" placeholder="name">
+                        <label for="">Number</label>
+                        <input type="tel" class="form-control" placeholder="Phone number">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" placeholder="Email">
 
-                <label for="enquiry">Enquiry Type:</label>
-                <select id="enquiry">
-                    <option value="" disabled selected>Select an option</option>
-                    <option value="buy-image">Buy an Image</option>
-                    <option value="book-shoot">Book a Photoshoot</option>
-                    <option value="general">General Question</option>
-                </select>
+                        <div class=" input-grp">
+                            <label>DATE</label>
+                            <input type="date" class="form-control select-date" placeholder="Select Date">
+                        </div>
 
-                <label for="message">Message:</label>
-                <textarea id="message" placeholder="Message"></textarea>
+                        <div class="input-grp">
+                            <label>ADULTS</label>
+                            <input type="number" class="form-control select-date" value="1">
+                        </div>
 
-                <button type="submit">Send message</button>
-            </form>
+                        <div class="input-grp">
+                            <label>CHILDREN</label>
+                            <input type="number" class="form-control select-date" value="0">
+                        </div>
 
-        </section>
+                        <div class="input-grp">
+                            <label>Course</label>
+                            <select class="custom-select">
+                                <option value="1"> Macro Essentials</option>
+                                <option value="2"> Tiny Worlds</option>
+                                <option value="3"> Focus and detail</option>
+                            </select>
+                        </div>
+
+                        <div class="input-grp">
+
+                            <button type="button" class="btn btn-primary book">BOOK</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
     </main>
 
-    <footer>
+    !-- <footer>
         <img src="assets/images/Logo.png" alt="My logo" />
         <span>
             &copy;
