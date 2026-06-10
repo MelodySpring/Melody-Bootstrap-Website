@@ -4,126 +4,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
     <link rel="shortcut icon" href="assets/images/favicon-16x16.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/index.css">
+
     <title>MELODY SPRING MACRO</title>
 </head>
 
 <body>
+
     <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid d-flex align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/Logo.png" height="500" alt="My logo">
+                </a>
 
-        <div class="logo">
-            <img id="logoImage" src="assets/images/Logo.png" alt="">
-            MELODY SPRING MACRO
-        </div>
 
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="shop.html">SHOP</a>
-            <a href="quiz.html">QUIZ</a>
-            <a href="contact.html">COURSES</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">SHOP</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html">QUIZ</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">COURSES</a>
+                    </li>
+
+                </ul>
         </nav>
     </header>
 
+    <main>
 
-    <main id="aboutMe">
-        <h1>What Inspires Me</h1>
+        <!-- SECTION 1 — TITLE + CAROUSEL -->
+        <section id="aboutMe">
+            <h1>What Inspires Me</h1>
 
+            <div id="carouselItem" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/Common-mallow-main.jpg" class="d-block w-100" alt="Common mallow">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Hover-fly-main.jpg" class="d-block w-100" alt="Hoverfly">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Lungwort-main.jpg" class="d-block w-100" alt="Lungwort">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Wild-garlic-main.jpg" class="d-block w-100" alt="Wild garlic">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Marsh-marigold-main.jpg" class="d-block w-100" alt="Marsh Marigold">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/Spider-main.jpg" class="d-block w-100" alt="Spider">
+                    </div>
+                </div>
 
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselItem" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
 
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselItem" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
-        <div id="carouselItem" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/Common-mallow-main.jpg" class="d-block w-100" alt="Common mallow">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/Hover-fly-main.jpg" class="d-block w-100" alt="Hoverfly">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/Lungwort-main.jpg" class="d-block w-100" alt="Lungwort">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/Wild-garlic-main.jpg" class="d-block w-100" alt="Wild garlic">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/Marsh-marigold-main.jpg" class="d-block w-100" alt="Marsh Marigold">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/images/Spider-main.jpg" class="d-block w-100" alt="Spider">
+        <!-- SECTION 2 — FULL-WIDTH TEXT -->
+        <section id="aboutMe1" class="py-4">
+            <div class="aboutContainer">
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                            Step into a world where petals become landscapes and tiny creatures become the stars of the
+                            scene.
+                            At <strong>Melody Spring Macro Photography</strong>, I specialise in capturing the hidden
+                            beauty of
+                            flowers and the delicate insects that move quietly among them. From the soft textures deep
+                            within a bloom
+                            to the gentle shimmer of a bee dusted in pollen, my work reveals the extraordinary details
+                            most people
+                            never stop to see. Every photograph is a moment of stillness — a ladybird exploring the
+                            curve of a leaf,
+                            a hoverfly pausing mid‑flight, pollen grains glowing in warm morning light. Macro
+                            photography transforms
+                            these fleeting encounters into vivid, immersive portraits of nature’s smallest wonders.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselItem" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-
-
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselItem" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-
-
-        </div>
-
-
-
-
-
-        <section id="aboutMe1"></section>
-
-
-        <p>
-            Step into a world where petals become landscapes and tiny creatures become the stars of the scene. At
-            <strong> Melody Spring Macro Photography</strong>
-            , I specialise in capturing the hidden beauty of
-            flowers and the delicate
-            insects that move quietly among them. From the soft textures deep within a bloom to the gentle shimmer
-            of a bee dusted in pollen, my work reveals the extraordinary details most people never stop to see.
-            Every photograph is a moment of stillness — a ladybird exploring the curve of a leaf, a hoverfly pausing
-            mid‑flight, pollen grains glowing in warm morning light. Macro photography transforms these fleeting
-            encounters into vivid, immersive portraits of nature’s smallest wonders.
-        </p>
-        </section>
-        <section>
-            <p>
-                I use a Panasonic Lumix g9ii as my camera it is a micro four thirds making it light weight and easy to
-                carry. My main lens is an Olympus 90mm f3.5 macro lens which is fantastic to use as it gives an amazing
-                2x magnification if needed and is a joy to use. I also use its baby brother the Olympus 60mm f2.8 which
-                is useful for larger subjects. When light is poor I use a Olympus STF-8 Macro Flash which is good as it
-                is possible to move the dual heads to get the optimum flash. I use a Benro Tortoise TT0R03C mini tripod
-                with a K&F Concept GD3W geared head which gives ultimate control of the positioning of my camera. I
-                shoot stacks of 40 images using incamera bracketing. I then edit with Lightroom, Photoshop and the most
-                amazing stacking software in the world Zerene ehich can can be trialled and purchased here <a
-                    href="hhttps://zerenesystems.com/cms/stacker"></a>.
-            </p>
-            <img src="assets/images/My-gear.jpg" alt="A picture of the camera set up described in the text">
         </section>
 
+        <!-- SECTION 3 — TEXT + IMAGE ROW -->
+        <section class="py-4">
+            <div class="aboutContainer">
+                <div class="row align-items-center">
+
+                    <div class="col-md-7">
+                        <p>
+                            I use a Panasonic Lumix G9 II as my camera — it’s a micro four‑thirds system making it
+                            lightweight and easy
+                            to carry. My main lens is an Olympus 90 mm f/3.5 macro lens which gives an
+                            amazing 2× magnification and is a
+                            joy to use. I also use its baby brother, the Olympus 60 mm f/2.8, useful for larger
+                            subjects. When light is
+                            poor I use an Olympus STF‑8 Macro Flash, whose dual heads can be moved for optimum lighting.
+                            I shoot stacks
+                            of 40 images using in‑camera bracketing, then edit with Lightroom, Photoshop, and the
+                            stacking software
+                            Zerene — which can be trialled and purchased <a
+                                href="https://zerenesystems.com/cms/stacker">here</a>.
+                        </p>
+                    </div>
+
+                    <div class="col-md-5 text-center">
+                        <img src="assets/images/My-gear.jpg" class="img-fluid rounded"
+                            alt="Camera setup described in the text">
+                    </div>
+
+                </div>
+            </div>
         </section>
+
     </main>
+
     <footer>
         <img src="assets/images/Logo.png" alt="My logo" />
         <span>
             &copy;
-            <script>
-                document.write(new Date().getFullYear())
-            </script>
-            MELODY SPRING MACRO
+            <script>document.write(new Date().getFullYear())</script> MELODY SPRING MACRO
         </span>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
