@@ -6,7 +6,7 @@
 :root {
     --bg-head: #ca0088;
     --main-color: #c774a2;
-    --shadow-color: #bf9dc1;
+    --shadow-color: #8c0060;
     --alt-color: #c695bf;
     --flip-color: #0986ca;
     --text-color: #550037;
@@ -17,13 +17,11 @@
 }
 
 
-body {
-    padding-top: 120px;
-}
+
 
 /* HEADER */
 header {
-    position: fixed;
+
     top: 0;
     left: 0;
     width: 100%;
@@ -53,10 +51,21 @@ header {
     transform: scale(1.2);
 }
 
+body {
+    background-color: var(--main-color);
 
+}
 
+/*HOME PAGE ALL ABOUT ME */
 
-
+#aboutMe h1 {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
 
 
 
@@ -69,7 +78,39 @@ header {
     background: var(--alt-color);
 }
 
-*/
+.aboutContainer {
+    padding: 50px;
+}
+
+.aboutContainer h2 {
+    font-family: var(--font-main);
+    font-size: 40px;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.aboutContainer p {
+    font-family: var(--font-main);
+    font-size: 30px;
+    text-align: left;
+
+}
+
+.aboutContainer img {
+    height: 500px;
+    border: 2px solid var(--text-color);
+    box-shadow: 10px 10px var(--shadow-color);
+}
+
+/* GRADIENT DIVIDER */
+.divider-gradient {
+    height: 3px;
+    background: linear-gradient(to right, transparent, var(--shadow-color), transparent);
+
+
+}
+
 
 /*QUIZ*/
 #quiz {
@@ -103,6 +144,7 @@ p {
     margin-bottom: 1em;
 }
 
+/*
 .animation {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -110,6 +152,7 @@ p {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+    */
 
 .wrapper {
     width: 80%;
@@ -134,11 +177,15 @@ p {
 
 
     /* Set the depth of the elements */
+
+
     -webkit-perspective: 800px;
     -moz-perspective: 800px;
     -o-perspective: 800px;
     perspective: 800px;
+
 }
+
 
 .container:first-child {
     margin-left: 0;
