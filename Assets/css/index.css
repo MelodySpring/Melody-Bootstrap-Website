@@ -58,7 +58,8 @@ body {
 
 /*HOME PAGE ALL ABOUT ME */
 
-#aboutMe h1 {
+#aboutMe h1,
+#shopText h1 {
     font-family: var(--font-main);
     color: var(--text-color);
     font-size: 50px;
@@ -110,6 +111,20 @@ body {
 
 
 }
+
+/*GALLERY*/
+
+#shopText p {
+    font-family: var(--font-main);
+    font-size: 30px;
+    text-align: left;
+    padding: 20px;
+    color: var(--text-color);
+
+}
+
+
+
 
 
 /*QUIZ*/
