@@ -133,13 +133,33 @@ body {
 
 }
 
-.cardItem {
-    height: 775px;
-    border: 2px solid var(--text-color);
-    margin-bottom: 70px;
-    background-color: var(--alt-color);
-    border-radius: 10px;
 
+.cardItem {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    background-color: var(--alt-color);
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+
+
+
+.item-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+
+
+.item-body .text-center {
+    margin-top: auto;
+    padding-bottom: 20px;
 }
 
 .cardItem h3 {
@@ -157,6 +177,9 @@ body {
     padding: 10px;
     color: var(--text-color);
 }
+
+
+
 
 .cardItem .btn {
     font-family: var(--font-main);
