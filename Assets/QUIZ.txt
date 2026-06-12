@@ -1,0 +1,74 @@
+1. What does the aperture control in a camera?
+A) Colour balance
+B) Depth of field
+C) Image sharpness
+D) File size
+Hint: Think about background blur.
+Answer: B) Depth of field
+
+2. What does a fast shutter speed help you capture?
+A) More light
+B) Motion blur
+C) Freezing action
+D) Softer colours
+Hint: Used a lot in sports photography.
+Answer: C) Freezing action
+
+3. What does ISO adjust?
+A) Lens zoom
+B) Sensor sensitivity
+C) White balance
+D) Focus distance
+Hint: Higher values help in low light.
+Answer: B) Sensor sensitivity
+
+What does the term “bokeh” refer to in photography?  
+A) The colour accuracy of an image
+B) The sharpness of the subject
+C) The quality of the out‑of‑focus areas
+D) The amount of digital noise in a photo
+
+Hint:
+Think about what happens behind your subject when using a wide aperture.
+
+Answer:
+
+5. Which lens type is best for wide landscapes?
+A) Telephoto lens
+B) Macro lens
+C) Wide‑angle lens
+D) Tilt‑shift lens
+Hint: It captures more of the scene.
+Answer: C) Wide‑angle lens
+
+6. What does white balance correct?
+A) Image sharpness
+B) Colour temperature
+C) Lens distortion
+D) Exposure time
+Hint: Think “too blue” or “too orange.”
+Answer: B) Colour temperature
+
+7. What mode lets you choose the aperture while the camera chooses the shutter speed?
+A) Manual Mode
+B) Shutter Priority (S/Tv)
+C) Aperture Priority (A/Av)
+D) Auto Mode
+Hint: Great for portraits.
+Answer: C) Aperture Priority (A/Av)
+
+8. What is the rule of thirds used for?
+A) Adjusting brightness
+B) Improving composition
+C) Setting ISO
+D) Choosing lens size
+Hint: Helps place your subject.
+Answer: B) Improving composition
+
+9. What does a tripod help prevent?
+A) Overexposure
+B) Camera shake
+C) Colour shifts
+D) Lens flare
+Hint: Useful in low light.
+Answer: B) Camera shake
