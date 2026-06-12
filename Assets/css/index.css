@@ -60,7 +60,8 @@ body {
 
 #aboutMe h1,
 #shopText h1,
-#form h1 {
+#form h1,
+#quiz h1 {
     font-family: var(--font-main);
     color: var(--text-color);
     font-size: 50px;
@@ -326,24 +327,21 @@ label[for="course"]::before {
 
 
 
+/* QUIZ */
 
-
-
-
-
-/*QUIZ*/
-#quiz {
-    padding-top: 50px;
+#quiz p {
+    font-family: var(--font-main);
+    font-size: 30px;
+    color: var(--text-color);
+    text-align: justify;
+    padding: 50px;
 }
-
-
-
-
-
 
 h3 {
     font-size: 20px;
     font-weight: bold;
+    padding: 0;
+    margin: 0;
 }
 
 p {
@@ -351,103 +349,81 @@ p {
 }
 
 
-
-
 .wrapper {
-    width: 80%;
-    padding: 4%;
+    width: 100%;
     margin: 20px auto;
     background: var(--main-color-);
 }
 
-
 .wrapper.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
     width: 80%;
     margin: 20px auto;
     background: none;
 }
 
-
-.containerQuiz {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    float: left;
-    width: 48%;
-    height: 260px;
-    margin: 10px 0 10px 4%;
-    background: var(--main-color);
+.wrapper h2 {
+    font-size: 30px;
 }
 
-
-
+.wrapper ol {
+    font-size: 20px;
+}
 
 .card {
+    position: relative;
+    z-index: 5;
     width: 100%;
-    height: 100%;
-    position: absolute;
+    height: 300px;
+    position: relative;
     cursor: pointer;
-
-
-    /* Set the transition effects */
-    -webkit-transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
-    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-
 }
 
+
 .card.flipped {
-    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
 .card .front,
 .card .back {
-    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     color: var(--text-color);
     text-align: center;
-    font-size: 12px;
-    position: absolute;
+    font-size: 20px;
     backface-visibility: hidden;
-
     box-shadow: 3px 5px 20px 2px var(--shadow-color);
 }
 
-
-
-.card .back {
-    width: 100%;
-    font-size: 16px;
-    text-align: left;
-    line-height: 25px;
-
-}
-
-
-.card .back label {
-    display: inline-block;
-    width: 70px;
-    text-align: left;
-}
-
 .card .front {
+    position: relative;
+    z-index: 20;
     background: var(--alt-color);
 }
 
 .card .back {
     background: var(--flip-color);
-    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+    text-align: center;
+    line-height: 25px;
 }
 
+.card .back h3 {
+    font-size: 40px;
+    color: var(--text-color);
+}
 
+.card .back p {
+    font-size: 30px;
+    color: var(--text-color);
+}
 
+/* Card content */
+/*
 .cardTitle {
     font-size: 1.4em;
     line-height: 1.2em;
@@ -459,17 +435,13 @@ p {
     font-weight: 100;
     text-align: left;
 }
+*/
 
-
-
-.front {
-    position: relative;
-}
-
+/* HINT*/
 .front:hover::after {
     content: attr(data-hint);
     position: absolute;
-    bottom: -10px;
+    bottom: 50pxx;
     left: 0;
     background: var(--shadow-color);
     color: var(--alt-color);
@@ -479,8 +451,23 @@ p {
     white-space: nowrap;
     transform: translateY(100%);
     box-shadow: 0 3px 10px var(--shadow-color);
-    z-index: 10;
+    z-index: 999;
 }
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: var(--bg-head);
+    color: var(--text-color);
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
 
 /* FOOTER*/
 footer {
