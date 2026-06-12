@@ -59,7 +59,7 @@
         <section class="contactContainer">
             <div class="row">
 
-                <div class="col-12  col-lg-3">
+                <div class="col-12  col-lg-8">
 
 
                     <div class="contactText">
@@ -106,45 +106,45 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-12 col-lg-4 d-flex justify-content-center">
                     <div class="booking-form-box">
 
-                        <div class="radio-btn">
-                            <input type="radio" class="btn" name="check" checked="checked"><span>Novice</span>
-                            <input type="radio" class="btn" name="check"><span>Intermediate</span>
-                            <input type="radio" class="btn" name="check"><span>Experienced</span>
-                        </div>
-
                         <div class="booking-form">
-                            <label for="">Name</label>
-                            <input type="text" class="form-control" placeholder="name">
-                            <label for="">Number</label>
-                            <input type="tel" class="form-control" placeholder="Phone number">
-                            <label for="">Email</label>
-                            <input type="email" class="form-control" placeholder="Email">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" class="form-control" placeholder="Name">
+                            <label for="number">Phone Number</label>
+                            <input id="number" type="tel" class="form-control" placeholder="Phone number">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" class="form-control" placeholder="Email">
 
                             <div class=" input-grp">
-                                <label>DATE</label>
+                                <label for="date">DATE</label>
                                 <input type="date" class="form-control select-date" placeholder="Select Date">
                             </div>
 
                             <div class="input-grp">
-                                <label>ADULTS</label>
-                                <input type="number" class="form-control select-date" value="1">
+                                <label for="adult">ADULTS</label>
+                                <input id="adult" type="number" class="form-control select-date" value="1">
                             </div>
 
                             <div class="input-grp">
-                                <label>CHILDREN</label>
-                                <input type="number" class="form-control select-date" value="0">
+                                <label for="child">CHILDREN</label>
+                                <input id="child" type="number" class="form-control select-date" value="0">
                             </div>
 
                             <div class="input-grp">
-                                <label>Course</label>
-                                <select class="custom-select">
+                                <label for="course">Course</label>
+                                <select id="course" class="custom-select">
                                     <option value="1"> Macro Essentials</option>
                                     <option value="2"> Tiny Worlds</option>
                                     <option value="3"> Focus and detail</option>
                                 </select>
+                            </div>
+                            <h3>Current Level</h3>
+                            <div class="radio-btn">
+                                <input type="radio" class="btn" name="check" checked="checked"><span>Novice</span>
+                                <input type="radio" class="btn" name="check"><span>Intermediate</span>
+                                <input type="radio" class="btn" name="check"><span>Experienced</span>
                             </div>
 
                             <div class="input-grp">

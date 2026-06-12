@@ -195,12 +195,12 @@ body {
 }
 
 
-/* COURSES?CONTACT*/
+/* COURSES/CONTACT*/
 
 .contactText p {
     font-family: var(--font-main);
     font-size: 30px;
-    text-align: left;
+    text-align: justify;
     padding-left: 50px;
     color: var(--text-color);
 
@@ -215,14 +215,114 @@ body {
     color: var(--text-color);
 }
 
+.booking-form {
+    padding-bottom: 25px;
+}
+
+.booking-form label {
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: var(--text-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.booking-form input {
+    padding: 10px;
+}
+
+.input-grp {
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.radio-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-btn span {
+    display: flex;
+    align-items: center;
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: var(--text-color);
+
+}
+
+.radio-btn input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    accent-color: var(--text-color);
 
 
+}
+
+.booking-form-box h3 {
+    font-family: var(--font-main);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.booking-form ::placeholder {
+    font-family: var(--font-main);
+    font-size: 20px;
+}
 
 
+.booking-form .btn {
+    font-family: var(--font-main);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    height: 70px;
+    padding: 10px;
+    background-color: var(--alt-color);
+    color: var(--text-color);
+    text-align: center;
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    padding-top: 10px;
+}
 
 
+label[for="name"]::before {
+    content: "👤 ";
+}
 
+label[for="number"]::before {
+    content: "☎️ ";
+}
 
+label[for="email"]::before {
+    content: "📧 ";
+}
+
+label[for="date"]::before {
+    content: "📆 ";
+}
+
+label[for="adult"]::before {
+    content: "👩‍🦰 ";
+}
+
+label[for="child"]::before {
+    content: "👶 ";
+}
+
+label[for="course"]::before {
+    content: "📚 ";
+}
 
 
 
