@@ -33,7 +33,7 @@ header {
 
 /* LOGO */
 #logoImage {
-    height: 70px !important;
+    height: 90px !important;
     width: auto;
 }
 
@@ -469,9 +469,11 @@ footer {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 8px 0;
 
 }
+
+
 
 footer .container-fluid {
     display: flex;
@@ -481,9 +483,9 @@ footer .container-fluid {
 
 }
 
+
+
 footer img {
-    height: 80px;
-    width: auto;
-    display: block;
-    margin-bottom: 10px;
+    height: 70px;
+    margin-bottom: 0;
 }
